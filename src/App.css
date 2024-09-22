@@ -1,0 +1,69 @@
+.bordered-container {
+  border: 1px solid darkblue;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.shop-now-btn {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+  background-color: #0056b3;
+}
+
+.shop-now-btn:hover {
+  transform: scale(1.05);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header, footer {
+  background-color: black;
+  padding: 10px;
+}
+
+main {
+  flex: 1;
+}
+
+nav a {
+  color: #007bff;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #0056b3;
+}
+.fade-jump {
+  font-size: 24px;
+  position: relative;
+  animation: fadeJump 2s infinite;
+  color: orangered;
+  text-shadow: yellow solid 2px 2px 2px;
+}
+
+@keyframes fadeJump {
+  0% {
+      opacity: 0;
+      top: 0;
+  }
+  25% {
+      opacity: 1;
+      top: -10px;
+  }
+  50% {
+      opacity: 0;
+      top: 0;
+  }
+  75% {
+      opacity: 1;
+      top: 10px;
+  }
+  100% {
+      opacity: 0;
+      top: 0;
+  }
+}

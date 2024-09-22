@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar, .footer {
+  background-color: black;
+  color: white;
+}
+
+.footer .cta-button {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.footer .cta-button:hover {
+  color: #ffcc00;
+}
+
+.primary{
+  border-radius: 80%;
+  color: black;
+  background-color: gray;
+  
+}
+.my-4{
+  color: black;
+}
